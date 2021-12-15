@@ -124,6 +124,40 @@ const devs = [
     },
 ]
 
+const phoneBook =[
+    {
+        Name : 'Somrat',
+        Loacation : 'Bogura',
+        Relation : 'My self',
+        Number : '01726820147'
+    },
+    {
+        Name : 'Sumona',
+        Loacation : 'Bogura',
+        Relation : 'Sister',
+        Number : '01866820341'
+    },
+    {
+        Name : 'Md latiful Bari',
+        Loacation : 'Bogura',
+        Relation : 'Father',
+        Number : '01725141831'
+    },
+    {
+        Name : 'Shamoli',
+        Loacation : 'Bogura',
+        Relation : 'Mother',
+        Number : '01780541631'
+    },
+    {
+        Name : 'Nana',
+        Loacation : 'Dupchanchia',
+        Relation : 'Nana',
+        Number : '01843567032'
+    },
+]
+
 
 localStorage.setItem('StudentData',JSON.stringify(stuData))
 localStorage.setItem('DevsData', JSON.stringify(devs))
+localStorage.setItem('phoneBook', JSON.stringify(phoneBook))
